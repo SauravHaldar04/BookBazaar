@@ -11,7 +11,7 @@ function Header() {
                     <ul className="navbar-ul">
                         <li>
                             <Link to="/login"><button>Login</button></Link>
-                            <button>Sign Up</button>
+                           <Link to ="/signup"><button>Sign Up</button></Link> 
                         </li>
                     </ul>
                 </nav>

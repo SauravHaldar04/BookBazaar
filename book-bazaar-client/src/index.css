@@ -71,6 +71,7 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 0px;
+
 }
 .title-div{
   border-radius: 8px;
@@ -83,7 +84,7 @@ body{
   justify-content: center;
   background-color: hsla(248, 100%, 83%, 0.51);
   align-items: center;
-margin: 0px 20px;
+  margin: 0px 40px;
 }
 
 .get-started-button{
@@ -138,8 +139,8 @@ margin: 0px 20px;
   box-shadow: 2px 2px 5px hsl(0, 0%, 77%);
   padding: 20px;
   margin: 20px;
-  width:25%;
-  height: 50vh;
+  width:400px;
+  height: 400px;
   margin:8% auto ;
   
 }
@@ -172,6 +173,84 @@ margin: 0px 20px;
 }
 
 .login-card button:hover{
+  background-color: hsl(290, 100%, 98%);
+  color:rgb(154, 89, 252);
+  border: 2px solid rgb(154, 89, 252);
+  transition: 0.10s ease-in-out;
+}
+
+.signup-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  border: 1px solid hsl(276, 100%, 83%);
+  box-shadow: 2px 2px 5px hsl(0, 0%, 77%);
+  padding: 20px;
+  margin: 20px;
+  width: 400px;;
+  height: 400px;
+  margin:8% auto ;
+  
+}
+
+.signup-card h2{
+  color: rgb(154, 89, 252);
+  font-size: 2em;
+  margin: 10px;
+}
+
+.name-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+}
+.email, .pass{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 77%);
+  width: 80%;
+}
+
+.first-name{
+  display: inline;
+  width: 45%;
+ 
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 77%);
+}
+.last-name{
+  display: inline;
+  width: 45%;
+ 
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 77%);
+}
+
+.signup-card button{
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-size: medium;
+  font-family: 'Arial', sans-serif;
+  background-color:rgb(154, 89, 252);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 10px;
+  min-width: 80%;
+}
+
+.signup-card button:hover{
   background-color: hsl(290, 100%, 98%);
   color:rgb(154, 89, 252);
   border: 2px solid rgb(154, 89, 252);
